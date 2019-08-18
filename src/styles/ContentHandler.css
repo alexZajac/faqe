@@ -1,0 +1,16 @@
+.container {
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+  padding-left: 140px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-left: 80px;
+  }
+}

@@ -1,0 +1,30 @@
+.mainTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.title {
+  font-family: "Open Sans";
+  color: white;
+  font-size: 4vh;
+  letter-spacing: -1px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description {
+  font-family: "Open Sans";
+  color: white;
+  font-size: 2vh;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 3vh;
+  }
+}

@@ -1,0 +1,79 @@
+.tabsContainer {
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  width: 140px;
+  flex-direction: column;
+  background-color: #04002e;
+  z-index: 2;
+  align-items: stretch;
+  animation: tabappear 0.3s ease-in-out;
+}
+
+.tab {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+}
+
+.tabImage {
+  height: 6vh;
+  width: 6vh;
+  margin-bottom: 3vh;
+  z-index: 1;
+}
+
+.tabLabel {
+  letter-spacing: 1px;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 1vw;
+  font-weight: bold;
+  z-index: 1;
+  transition: all ease-in-out 0.3s;
+}
+
+.tab:hover .tabLabel {
+  letter-spacing: 2px;
+}
+
+.selectedArea {
+  position: absolute;
+  width: 140px;
+  display: flex;
+  transition: all ease-in-out 0.3s;
+}
+
+.highlightBar {
+  flex: 1;
+  background-color: #54eaf3;
+}
+
+.highlightGradient {
+  flex: 20;
+  background: linear-gradient(to right, rgba(84, 234, 243, 0.5), transparent);
+}
+
+@keyframes tabappear {
+  from {
+    left: -12vw;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tabLabel {
+    opacity: 0;
+  }
+  .tabsContainer {
+    width: 80px;
+  }
+  .selectedArea {
+    width: 80px;
+  }
+}

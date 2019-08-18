@@ -1,0 +1,146 @@
+.loaderWrapper {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.loaderContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 12vw;
+  height: 12vw;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.loaderTextContainer {
+  width: 100%;
+  height: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.loaderText {
+  color: white;
+  font-size: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.loaderBox {
+  width: 4vw;
+  height: 4vw;
+  display: flex;
+  background-color: #54eaf3;
+  border-radius: 6px;
+  margin: 0 1vh 1vh 0;
+}
+
+.firstBox {
+  animation: firstAnim 1s linear infinite;
+}
+
+.secondBox {
+  animation: secondAnim 1s linear infinite;
+}
+
+.thirdBox {
+  animation: thirdAnim 1s linear infinite;
+}
+
+@keyframes secondAnim {
+  0% {
+    transform: translateX(0);
+  }
+  8.33% {
+    transform: translateY(calc(4vw + 1vh));
+  }
+  24.99% {
+    transform: translateY(calc(4vw + 1vh));
+  }
+  33.32% {
+    transform: translate(calc(-4vw - 1vh), calc(4vw + 1vh));
+  }
+  49.98% {
+    transform: translate(calc(-4vw - 1vh), calc(4vw + 1vh));
+  }
+  58.31% {
+    transform: translateX(calc(-4vw - 1vh));
+  }
+  74.64% {
+    transform: translateX(calc(-4vw - 1vh));
+  }
+  82.97% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes firstAnim {
+  0% {
+    transform: translateX(0);
+  }
+  8.33% {
+    transform: translateX(0);
+  }
+  16.66% {
+    transform: translateX(calc(4vw + 1vh));
+  }
+  33.32% {
+    transform: translateX(calc(4vw + 1vh));
+  }
+  41.65% {
+    transform: translate(calc(4vw + 1vh), calc(4vw + 1vh));
+  }
+  58.31% {
+    transform: translate(calc(4vw + 1vh), calc(4vw + 1vh));
+  }
+  66.64% {
+    transform: translateY(calc(4vw + 1vh));
+  }
+  82.97% {
+    transform: translateY(calc(4vw + 1vh));
+  }
+  91.3% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes thirdAnim {
+  0% {
+    transform: translateX(0);
+  }
+  16.66% {
+    transform: translateX(0);
+  }
+  24.99% {
+    transform: translateY(calc(-4vw - 1vh));
+  }
+  41.32% {
+    transform: translateY(calc(-4vw - 1vh));
+  }
+  49.65% {
+    transform: translate(calc(4vw + 1vh), calc(-4vw - 1vh));
+  }
+  65.98% {
+    transform: translate(calc(4vw + 1vh), calc(-4vw - 1vh));
+  }
+  74.31% {
+    transform: translateX(calc(4vw + 1vh));
+  }
+  90.64% {
+    transform: translateX(calc(4vw + 1vh));
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .loaderText {
+    font-size: 16px;
+  }
+}
