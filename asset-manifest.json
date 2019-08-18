@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/faqe/static/css/main.95cc88ef.chunk.css",
+    "main.js": "/faqe/static/js/main.a6d5fc3a.chunk.js",
+    "main.js.map": "/faqe/static/js/main.a6d5fc3a.chunk.js.map",
+    "runtime~main.js": "/faqe/static/js/runtime~main.eef38787.js",
+    "runtime~main.js.map": "/faqe/static/js/runtime~main.eef38787.js.map",
+    "static/css/2.3ab75c30.chunk.css": "/faqe/static/css/2.3ab75c30.chunk.css",
+    "static/js/2.cda53127.chunk.js": "/faqe/static/js/2.cda53127.chunk.js",
+    "static/js/2.cda53127.chunk.js.map": "/faqe/static/js/2.cda53127.chunk.js.map",
+    "index.html": "/faqe/index.html",
+    "precache-manifest.18ce711e7c6e31278c89173e4b346297.js": "/faqe/precache-manifest.18ce711e7c6e31278c89173e4b346297.js",
+    "service-worker.js": "/faqe/service-worker.js",
+    "static/css/2.3ab75c30.chunk.css.map": "/faqe/static/css/2.3ab75c30.chunk.css.map",
+    "static/css/main.95cc88ef.chunk.css.map": "/faqe/static/css/main.95cc88ef.chunk.css.map",
+    "static/media/meh.png": "/faqe/static/media/meh.60879e1c.png",
+    "static/media/sad.png": "/faqe/static/media/sad.a41ae4f2.png",
+    "static/media/smile.png": "/faqe/static/media/smile.6c7dc5a5.png"
+  }
+}
