@@ -1,9 +1,13 @@
 .infoContainer {
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   padding-left: 20vw;
+}
+
+.markdownText {
+  width: 60vw;
 }
