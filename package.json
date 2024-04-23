@@ -6,7 +6,7 @@
     "@tensorflow/tfjs-node": "^1.2.7",
     "canvas": "^2.6.0",
     "face-api.js": "^0.20.1",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^5.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-markdown": "^4.1.0",
