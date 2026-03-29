@@ -3,17 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@tensorflow/tfjs-node": "^1.2.7",
+    "@tensorflow/tfjs-node": "^0.1.11",
     "canvas": "^2.6.0",
-    "face-api.js": "^0.20.1",
-    "gh-pages": "^2.1.1",
+    "face-api.js": "^0.20.0",
+    "gh-pages": "^6.3.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-markdown": "^4.1.0",
+    "react-markdown": "^10.1.0",
     "react-range": "^1.2.0",
-    "react-scripts": "3.1.1",
+    "react-scripts": "^5.0.1",
     "react-webcam": "^1.1.1",
-    "sweetalert-react": "^0.4.11"
+    "sweetalert-react": "^0.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,6 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://alexzajac.github.io/faqe",
-  "devDependencies": {}
+  "homepage": "https://alexzajac.github.io/faqe"
 }
